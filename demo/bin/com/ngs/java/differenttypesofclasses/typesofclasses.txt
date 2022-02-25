@@ -1,0 +1,35 @@
+types of classes in java
+1.Concrete class
+2.Abstract class
+3.Final class
+4.POJO class
+5.Static class
+6.Inner class
+   a.Nested Inner class
+   b.Method Local Inner class
+   c.Anonymous inner classes
+   d.Static nested classes
+1.concrete class:
+  Any normal class that does not have any abstract methods is called concrete class. A concrete class can 
+  extend its parent class, an abstract class or implement an interface if it implements all their methods.
+2.Abstract class:
+  The class which have abstract and non abstract methods are called abstract class.if you did not want to 
+  implement abstract methods that are in interface then keep that class as abstract.we cannot create the 
+  object of abstract class.it can have static methods and constructors
+3.Final class:
+  The class that is declared with final is said to be final class.we cannot inherit final class
+4.POJO class:
+  POJO is said to be plain old java object which contains only private variables and getter and setter methods
+5.Static class:
+  The class which has only static fields is said to be static class.you cannot create object to static class
+6.Inner class:
+  The class inside the class is called inner class.The purpose of inner class is to group classes that belongs 
+  together,which makes the code more readable and maintainable.
+  a.Nested Inner class:
+  The class inside the class is nested inner class
+  b.Method Local Inner class:
+  An inner class can be declared within a method of an outer class.
+  c. Anonymous inner classes:
+  the class which declares without have any name is called Anonymous inner class
+  d. Static nested classes:
+  Static nested classes are like a static member of the outer class.
